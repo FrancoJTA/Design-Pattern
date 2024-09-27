@@ -1,0 +1,16 @@
+﻿<Window x:Class="VelocidadCalidadCobertura.detalles"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VelocidadCalidadCobertura"
+        mc:Ignorable="d"
+        Title="detalles" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="lblName"  Content="Label" HorizontalAlignment="Center" Margin="0,22,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTv" Content="Label" HorizontalAlignment="Left" Margin="26,66,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblInter" Content="Label" HorizontalAlignment="Left" Margin="26,154,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblcosto" Content="Label" HorizontalAlignment="Center" Margin="0,202,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

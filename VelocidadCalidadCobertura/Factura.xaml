@@ -1,0 +1,18 @@
+﻿<Window x:Class="VelocidadCalidadCobertura.Factura"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VelocidadCalidadCobertura"
+        mc:Ignorable="d"
+        Title="Factura" Height="400" Width="300">
+    <Grid>
+        <Label Content="Factura" HorizontalAlignment="Left" Margin="29,23,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,49,0,0" Stroke="Black" VerticalAlignment="Top" Width="280"/>
+        <Label x:Name="lblPack" Content="Label" HorizontalAlignment="Left" Margin="29,71,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblService" Content="" HorizontalAlignment="Left" Margin="29,110,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,298,0,0" Stroke="Black" VerticalAlignment="Top" Width="280"/>
+        <Label x:Name="lblTotal" Content="Label" HorizontalAlignment="Center" Margin="0,304,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
